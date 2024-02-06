@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+    background-color: #eee;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #618183af;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+}
+
+.headerUl{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 120px;
+}
+.headerUl li a{
+    text-decoration: none;
+    background-color: #455b5c;
+    padding: 10px 15px;
+    color: #ffff;
+    border-radius: 5px;
+}
+.headerUl a:hover {
+    background-color: #1e1616;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.logo{
+    max-width: 80px;
+    border-radius: 20%;
+    position: relative;
+    top: 20px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+ .flex img, .grid img{
+    display: inline-block;
+    width: 20%;
+    border: 5px solid #673d3d;
+    border-radius: 5px;
+    padding: 2px 5px;
+    transition: .3s ease;
+}
+.flex img:hover{
+    transform: scale(1.1);
+}
+.grid{
+    background-color: #041b14;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: space-around;
+    padding: 20px 0;
+    transition: .3s ease-in-out;
+}
+
+.grid img{
+    width: 100%;
+    padding: 5px 10px;
+}
+.grid:nth-child(2){
+    border: 4px solid #000;
+}
+.grid img:hover{
+    transform: scale(1.1);
+}
+.section1{
+    background-color: #57481c;
+    text-align: center;
+    line-height: 120px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+
+}
+.section2{
+    background-color: #3c4930;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.section3{
+    margin-bottom: 20px;
+}
+.about-section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 70px;
+    color: #156b4e;
+    margin-bottom: 20px;
+}
+p{
+    line-height: 1em;
+    color: #202020;
+    font-size: 20px;
+}
+a[href="#skikToMain"]{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#main-content{
+    padding: 20px;
+}
+a[href="#skikToMain"]:focus {
+    top: 0;
+}
+
+/* contact atyles */
+.contact-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+    background-color: #1e1616;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.copyright{
+    font-size: 12px;
+    margin-top: 40px;
+    color: #ffffff75;
+}
