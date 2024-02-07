@@ -87,7 +87,7 @@ nav{
     transform: scale(1.1);
 }
 .section1{
-    background-color: #57481c;
+    background-color: #ffe596;
     text-align: center;
     line-height: 120px;
     padding: 10px 20px;
@@ -110,12 +110,12 @@ nav{
 h1{
     font-weight: bold;
     font-size: 70px;
-    color: #156b4e;
+    color: #333;
     margin-bottom: 20px;
 }
 p{
     line-height: 1em;
-    color: #202020;
+    color: #333;
     font-size: 20px;
 }
 a[href="#skikToMain"]{
