@@ -69,7 +69,7 @@ header nav{
     transition: .3s ease;
 }
 .flex img:hover{
-    transform: scale(1.1);
+    transform: scale3d(1.1,1.1, 1);
 }
 .grid{
     display: grid;
@@ -91,7 +91,7 @@ header nav{
     border: 4px solid #f6be05;
 }
 .grid img:hover{
-    transform: scale(1.1);
+    transform: scale3d(1.1,1.1,1);
 }
 .section1{
     background-color: #ffe596;
