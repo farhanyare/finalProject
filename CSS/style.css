@@ -11,14 +11,19 @@ body{
 }
 
 header{
-    background-color: #618183af;
-    margin-bottom: 20px;
-    padding: 20px;
+    background-image: url(/images/pexels4.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 214px;
     text-align: center;
 }
-nav{
+header nav{
+    
+    background-color: #4a4a4a;
+    width: 100%;
     display: inline-block;
-    width: 80%;
+    position: relative;
+    top: 144px;
 }
 
 .headerUl{
@@ -67,7 +72,6 @@ nav{
     transform: scale(1.1);
 }
 .grid{
-    background-color: #041b14;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(2, 40%);
@@ -80,8 +84,8 @@ nav{
     width: 100%;
     padding: 5px 10px;
 }
-.grid:nth-child(2){
-    border: 4px solid #000;
+.grid img:nth-child(2n){
+    border: 4px solid #f6be05;
 }
 .grid img:hover{
     transform: scale(1.1);
@@ -92,7 +96,8 @@ nav{
     line-height: 120px;
     padding: 10px 20px;
     margin-bottom: 20px;
-
+    height: 300px;
+    
 }
 .section2{
     background-color: #3c4930;
@@ -113,6 +118,13 @@ h1{
     font-size: 70px;
     color: #333;
     margin-bottom: 20px;
+}
+h2{
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
 }
 p{
     line-height: 1em;
